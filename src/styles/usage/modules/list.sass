@@ -1,0 +1,76 @@
+.home
+  height: 100%
+  overflow: hidden
+  @include flexbox(flex)
+  @include flex-direction(column)
+.home-footer
+  z-index: 5
+  position: fixed
+  bottom: 0
+  left: 0
+  width: 100%
+  border-top: 1px solid #cccccc
+  height: 44px
+  background: #fff
+  .home-nav
+    @include flexbox(flex)
+    @include justify-content(space-around)
+    text-align: center
+    dl
+      width: 20%
+    dt
+      height: 18px
+      margin-bottom: 5px
+      i
+        font-size: 16px
+    dd
+      font-size: 12px
+  .nav-s
+    position: absolute
+    left: 50%
+    bottom: 0
+    margin-left: -25px
+    text-align: center
+    height: 50px
+    width: 50px
+    line-height: 50px
+    border-radius: 25px
+    border: 1px solid #ccc
+    background: #fff
+    i
+      font-size: 30px
+  .on
+    color: green
+
+.mack
+  z-index: 8
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  .mark
+    height: 100%
+    width: 100%
+    background: #000
+    opacity: 0.5
+  .mack-div
+    position: absolute
+    top: 50%
+    left: 15%
+    height: 100px
+    width: 70%
+    background: #fff
+    margin-top: -50px
+    border-radius: 15px
+    h2
+      text-align: center
+      line-height: 40px
+    p
+      margin-top: 20px
+      text-align: center
+      span
+        display: inline-block
+        width: 50%
+
+

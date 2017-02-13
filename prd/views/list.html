@@ -1,0 +1,34 @@
+
+<div ui-view class="home"></div>
+
+<div class="home-footer">
+    <div class="home-nav">
+        <dl ui-sref="list.home.host" ui-sref-active="on">
+            <dt><i class="yo-ico">&#xe751;</i></dt>
+            <dd>首页</dd>
+        </dl>
+        <dl ui-sref="list.contrive"  ui-sref-active="on">
+            <dt><i class="yo-ico">&#xe610;</i></dt>
+            <dd>发现</dd>
+        </dl>
+        <dl>123</dl>
+        <dl ui-sref="list.my"  ui-sref-active="on">
+            <dt><i class="yo-ico">&#xe788;</i></dt>
+            <dd>我的</dd>
+        </dl>
+        <dl ng-click="name = !name"  ui-sref-active="on">
+            <dt><i class="yo-ico">&#xe770;</i></dt>
+            <dd>退出</dd>
+        </dl>
+    </div>
+    <div class="nav-s">
+        <i class="yo-ico">&#xe77e;</i>
+    </div>
+    <div class="mack" ng-if="name")>
+        <div class="mark"></div>
+        <div class="mack-div">
+            <h2>你确定是要退出吗？</h2>
+            <p><span ui-sref="guide">确定</span><span ng-click="fn()">取消</span></p>
+        </div>
+    </div>
+</div>
