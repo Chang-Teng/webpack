@@ -20,6 +20,14 @@ module.exports = {
                 loader: "babel-loader"
             },
             {
+                test: /\.string$/,
+                loader: "string-loader"
+            },
+            {
+                test: /\.vue$/,
+                loader: "vue-loader"
+            },
+            {
                 test: /\.sass$/,
                 //loader: "style-loader!css-loader!sass-loader"
                 loader:ET.extract({
@@ -29,12 +37,19 @@ module.exports = {
             }
         ]
     },
+
     devServer:{
         contentBase: __dirname+"/prd", //本地服务器所加载的页面所在目录
-        port: "8080",  //端口号
+        port: "8020",  //端口号
         host: "localhost", //
         historyApiFallback: true, //不跳转
         inline: true    //实时刷新
+    },
+    resolve: {
+      extensions: [".js",".vue",".json"],
+        alias: {
+          "vue$" :"vue/dist/vue.common.js"
+        }
     },
     plugins:[
         new ET("boudle.css")

@@ -1,6 +1,6 @@
 @import "./lib/core/reset"
 
-@import "./usage/swiper.css"
+@import "./lib/swiper-3.3.1.min.css"
 
 @import "./usage/common/common.css"
 
@@ -8,10 +8,13 @@
 @import "./usage/modules/list"
 
 @import "./usage/modules/home"
-@import "./usage/modules/host"
-body,html,#box
+
+body,html,#app
   height: 100%
   width: 100%
   overflow: hidden
+#app
+  @include flexbox()
+  @include flex-direction(column)
 
 

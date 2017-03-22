@@ -1,0 +1,17 @@
+#guide {
+  height: 100%;
+  width: 100%; }
+  #guide .swiper-o {
+    height: 100%;
+    width: 100%; }
+    #guide .swiper-o img {
+      height: 100%;
+      width: 100%; }
+  #guide .guide-but {
+    position: absolute;
+    bottom: 11%;
+    right: 19%;
+    width: 30%;
+    height: 5%; }
+
+/*# sourceMappingURL=guide.css.map */

@@ -1,3 +1,8 @@
+#box-list
+  height: 100%
+  overflow: hidden
+  @include flexbox(flex)
+  @include flex-direction(column)
 .home
   height: 100%
   overflow: hidden
@@ -5,9 +10,6 @@
   @include flex-direction(column)
 .home-footer
   z-index: 5
-  position: fixed
-  bottom: 0
-  left: 0
   width: 100%
   border-top: 1px solid #cccccc
   height: 44px
@@ -18,6 +20,8 @@
     text-align: center
     dl
       width: 20%
+    a
+      color: #333
     dt
       height: 18px
       margin-bottom: 5px
@@ -33,14 +37,13 @@
     text-align: center
     height: 50px
     width: 50px
-    line-height: 50px
     border-radius: 25px
     border: 1px solid #ccc
     background: #fff
     i
       font-size: 30px
   .on
-    color: green
+    background: green
 
 .mack
   z-index: 8

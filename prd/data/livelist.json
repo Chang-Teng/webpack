@@ -11,8 +11,7 @@
     "id":2,
     "img": "img/img2.jpg",
     "title": "小丸子2"
-  }, 
-  {
+  }, {
     "id":3,
     "img": "img/img3.jpg",
     "title": "小丸子3"
@@ -24,9 +23,5 @@
     "id":5,
     "img": "img/img1.jpg",
     "title": "小丸子5"
-  }, {
-      "id":2,
-      "img": "img/img2.jpg",
-      "title": "小丸子6"
-    }]
+  }]
 }

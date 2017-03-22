@@ -1,0 +1,19 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  "data": [{
+    "id":1,
+    "img": "img/img1.jpg",
+    "title": "小丸子1-homes"
+  }, {
+    "id":2,
+    "img": "img/img2.jpg",
+    "title": "小丸子2-homes"
+  }, {
+    "id":3,
+    "img": "img/img3.jpg",
+    "title": "小丸子3-homes"
+  } ]
+}
